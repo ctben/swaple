@@ -1,5 +1,9 @@
 jQuery(document).ready(function($) {
-
+$('.member-title').click(function(e) {
+  // console.log("Clicked");
+  $(this).next().slideToggle();
+  $(this).next().next().next().slideToggle();
+})
   // Header fixed and Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
