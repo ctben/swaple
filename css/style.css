@@ -947,12 +947,14 @@ h2.member-location  {
     }
     #roadmap-desktop{display: none;}
     #roadmap-mobile{display: block;}
+    .cointainer{width: 150px;}
 }
 
 @media screen and (max-width: 600px) {
     #coin-float {
         display: none;
     }
+    .cointainer{width: 100px;}
     .business-header {
         display: block;
         width: 100%;
