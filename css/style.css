@@ -748,7 +748,7 @@ section#about .about-content {
     margin-left: 2em;
     margin-right: 3em;
     border-radius: 0.5em;
-    min-width: 12em;
+    min-width: 14em;
 }
 
 .timeline h1 {
@@ -980,4 +980,5 @@ h2.member-location  {
         font-size: 1rem;
         font-weight: bold;
     }
+    .timeline{min-width: 12em;}
 }
