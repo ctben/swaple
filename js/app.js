@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
 
     new WOW().init();
 
-    $(document).on("scroll", onScroll);
+    //$(document).on("scroll", onScroll);
 
     // Smoth scroll on page hash links
     $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function(e) {
@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
 //         });
 //     });
 // });
-
+/*
 function onScroll(event) {
     var scrollPos = $(document).scrollTop();
     $('#navbarResponsive a').each(function() {
@@ -114,7 +114,7 @@ function onScroll(event) {
             currLink.removeClass("active");
         }
     });
-}
+}*/
 
 particlesJS('particles-js',
 

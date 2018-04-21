@@ -987,14 +987,14 @@ h2.member-location {
         font-weight: bold;
     }
     .business-header .display-1 {
-        margin-top: 15vh;
+        /*margin-top: 15vh;*/
+        margin-top: 11vh;
     }
     section#about img {
         width: 100%;
     }
 }
-
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
     .display-1 {
         font-size: 3rem;
         font-weight: bold;
@@ -1007,7 +1007,17 @@ h2.member-location {
         min-width: 12em;
     }
 }
-
+/*iphone4*/
+@media 
+    only screen and (min-device-width: 320px) 
+    and (max-device-width: 480px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (device-aspect-ratio: 2/3)
+{
+    .display-1 {
+        margin-top: 7vh!important;
+    }
+}
 .tokens .item {
     display: inline-block;
     float: left;
